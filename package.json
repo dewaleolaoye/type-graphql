@@ -1,0 +1,21 @@
+{
+  "name": "typegraphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.2",
+    "@types/graphql": "^14.5.0",
+    "@types/node": "^13.1.7",
+    "apollo-server-express": "^2.9.16",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^8.6.2",
+    "type-graphql": "^0.17.6",
+    "typescript": "^3.7.5"
+  }
+}
