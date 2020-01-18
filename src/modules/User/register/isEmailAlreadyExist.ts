@@ -23,7 +23,7 @@ export function IsEmailAlreadyExist(validationOptions?: ValidationOptions) {
       target: object.constructor,
       propertyName: propertyName,
       options: validationOptions,
-      constraints: {},
+      // constraints: {},
       validator: IsEmailAlreadyExistContstraint,
     });
   };
